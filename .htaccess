@@ -2,4 +2,8 @@ RewriteEngine On
 
 RewriteCond %{HTTPS} off
 
+RewriteCond %{HTTP_HOST} ^www.cprotect.se$ [NC]
+
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^(.*)$ https://cprotect.se/$1 [R=301,L]
