@@ -1,5 +1,5 @@
 RewriteEngine On
 
 RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
-RewriteRule (.*) https://example.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.cprotect\.se [NC]
+RewriteRule (.*) https://cprotect.se/$1 [L,R=301]
