@@ -12,8 +12,11 @@ body {
 body {
     background-color: #13db98;
     padding: 0;
-    margin-top: 25px;
     position: relative;
+}
+
+div {
+    padding-top: 25px;
 }
 
 img {
@@ -27,7 +30,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 5em;
     color: whitesmoke;
-    margin: -8px;
     padding: 0;
     position: absolute;
     top: 50%;
